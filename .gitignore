@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.amplify/
+amplify_outputs.json
+cdk.out/
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+
+# Local-only development notes, crawled data, screenshots, and temporary files.
+.local/
+data/
+tmp/
+docs/*.png
+
+# Knowledge Base data is expected to be prepared per deployment.
+# Keep the author's runtime corpus and manifests local.
+knowledge-base/source/
+knowledge-base/manifests/

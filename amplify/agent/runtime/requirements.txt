@@ -1,0 +1,6 @@
+bedrock-agentcore==1.15.0
+strands-agents[otel]==1.44.0
+aws-opentelemetry-distro==0.17.1
+boto3>=1.40.0
+requests>=2.32.0
+tavily-python>=0.7.0
