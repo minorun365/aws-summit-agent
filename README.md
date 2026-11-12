@@ -6,15 +6,9 @@ AWS Summit Japan 2026 の参加者をサポートする非公式AIチャット�
 
 このリポジトリは、Reactフロントエンド、Amplify Gen2、Cognito、Bedrock AgentCore Runtime、Strands Agents、Bedrock Knowledge Basesを組み合わせた実装例です。
 
-## できること
+## 主な機能
 
-- Cognitoでサインアップ、ログイン
-- フロントエンドからAgentCore Runtimeを直接呼び出し
-- Strands Agentsでツール利用とストリーミング応答
-- Bedrock Knowledge Baseを使ったRAG回答
-- Tavilyによる補助的なWeb検索
-- `react-markdown` によるMarkdown表示
-- Xで共有しやすいツイートリンクとOGPカード
+メールアドレスでアカウントを作ってログインすると、チャットで相談できます。回答はサミットの公式情報を入れたナレッジベースから引き、足りないときだけWeb検索で補います。回答はストリーミングで表示されます。Xで共有するためのリンクも用意しており、投稿にはOGPカードが付きます。
 
 ## 全体設計
 
